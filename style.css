@@ -58,6 +58,14 @@ section{
     height: calc(100vh - 80px);
 }
 
+
+section h1{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    animation: animeh1 1s ease-in-out infinite alternate;
+}
+
 /* media queries for tablets  952 px max*/
 @media (max-width: 952px){
     .logo, span{
@@ -74,6 +82,15 @@ section{
 @media (max-width: 858px){
     .checkbtn{
         display: block;
+        font-size: 20px;
+    }
+
+    .logo{
+        padding-left:40px;
+        font-size: 20px;
+    }
+    span{
+        font-size: 20px;
     }
     ul{
         position: fixed;
@@ -102,16 +119,6 @@ section{
         display: inline;
     } */
 
-}
-
-
-/* Section styling */
-
-section h1{
-    text-align: center;
-    color: white;
-    padding-top: 30px;
-    animation: animeh1 1s ease-in-out infinite alternate;
 }
 
 @keyframes animeh1{
